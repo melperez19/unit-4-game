@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <!-- Link to style.css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+
+    <!-- Link to Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+
+    <title>Crystal Collector!</title>
+</head>
+
+<body>
+
+ 
+
+    <div class="row">
+        <!-- Jumbotron Title -->
+        <h1 class="jumbotron text-center bg-white col-lg-12 fas fa-gem"> <i class="far fa-gem"></i> Crystals Collector!
+            <i class="far fa-gem"></i>
+            <i class="fas fa-gem"></i>
+        </h1>
+    </div>
+
+    <!-- Instructions Panel -->
+    <section class="container row">
+
+        <div class="col-lg-4  panel panel-default">
+            <h4 class="panel-heading text-center ml- text-white py-2"><strong>Here's How To Play!!</strong></h4>
+            <ol class="panel-body py-2 text-center text-black">
+                <li> You will be given a random number at the start of the game.</li>
+                <li>There are four cyrstals below. By clicking on a crystal you will
+                    add a specific amount of points to your total score.</li>
+                <li>The value of each crystal is hidden from you until
+                    you click on it.</li>
+                <li>Each time when the game starts, the game will change the
+                    values of each crystal.</li>
+                <p>
+                    <center>Good Luck!</center>
+                </p>
+
+            </ol>
+        </div>
+
+        <div class="col-lg-4">
+            <h4 class="random-number-and-scoreboard text-center border-bottom py-3"><strong>Match This
+                    Number</strong>
+            </h4>
+            <div id="random-number-generator" class="text-center">
+                <h3 id="random-number"></h3>
+            </div>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div id="score-board text-white">
+            <p><strong>Wins</strong></p>
+            <h6 id="total-wins">0</h6>
+            <div id="score-board col-lg-6">
+                <p><strong>Losses</strong></p>
+                <span id="total-losses">0</span>
+            
+                <div id="running-score">
+                    <h5>
+                        <center>Your total score is:</center>
+                    </h5>
+                    <h3 id="running-score-counter"></h3>
+                </div>
+            </div>
+        </div>
+        <div class="container bg-white">
+            <div class="row">
+                <div class="col-sm" id="crystals">
+                    <img id="diamond" class="img-fluid" src="assets/images/diamond2.jpg" alt="diamond"/>
+                </div>
+                <div class="col-sm"id="crystals">
+                    <img id="blue" class="img-fluid" src="assets/images/blue-crystal.jpg" alt="blue-crystal" />
+                </div>
+                <div class="col-sm"id="crystals">
+                    <img id="green-crystal" class="img-fluid" src="assets/images/green-crystal.jpg" alt="green-crystal" />
+                </div>
+                <div class="col-sm"id="crystals">
+                    <img id="morganite-crystal" class="img-fluid" src="assets/images/morganite-crystal.jpg" alt="morganite-crystal"/>
+                </div>
+            </div>
+    </div>
+            
+
+    </section>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+
+</body>
+
+</html>

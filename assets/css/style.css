@@ -1,0 +1,75 @@
+body {
+    background-image: url(../images/background3.jpg);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    width: auto;
+    opacity: .3%;
+}
+
+.jumbotron {
+    background-color: turquoise;
+    font-family: 'Mali', cursive;
+    color: teal;
+    size: 15%;
+    text-emphasis: bold;
+    width: max-content;
+    box-shadow: 10px 10px 5px grey;
+    
+}
+
+.panel-body {
+    outline-color: black;
+    text-decoration-color: black;
+}
+
+h5 {
+    color: white;
+    border-block-end-style: dashed;
+    text-shadow: 2px 2px black;
+}
+
+#running-score-counter {
+    position: absolute;
+    text-emphasis: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.container {
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.panel-heading {
+    font-family: 'Lobster', cursive;
+        text-shadow: 2px 2px black;
+    }
+
+#total-wins {
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#total-losses {
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#crystals {
+    padding: 4%;
+    width: 2%;
+}
+
+#random-number {
+    color: white;
+    size: 40%;
+    text-shadow: 2px 2px black;
+}
+
+#score-board {
+    box-shadow: 10px 10px 5px grey;
+}
+
+.panel-body {
+    text-decoration-color: antiquewhite;
+}
